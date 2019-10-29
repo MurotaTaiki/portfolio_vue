@@ -56,5 +56,8 @@ export default {
   */
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
+  },
+  generate: {
+    fallback: true
   }
 }
